@@ -1,0 +1,88 @@
+#header {
+  max-width: 100%;
+  padding: 25px 0;
+  height: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 150;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  transition: all 1s;
+}
+
+#header.shrink {
+  padding: 15px 0;
+  border-bottom: none;
+  background-color: black;
+}
+
+#header h1 {
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-left: 30px;
+  color: white;
+}
+
+#nav {
+  margin-right: 30px;
+  text-align: center;
+  float: right;
+}
+
+#nav a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding-top: 8px;
+  font-family: 'source sans pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: .24em;
+}
+
+#nav a:hover,
+#nav a:active {
+  color: #ff9061;
+}
+
+#mobile-nav button {
+  float: right;
+  color: white;
+  margin-right: 20px;
+}
+
+#reservation {
+  margin: 10px;
+  text-align: left;
+}
+
+#reservation h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+#reservation a {
+  font-weight: 400;
+}
+
+#nav-side-list {
+  width: 250px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#nav-side-list-logo {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 599px) {
+  #header h1 {
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}

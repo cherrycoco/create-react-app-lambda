@@ -1,0 +1,83 @@
+.testimonial-wrapper {
+  margin-top: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.what-people-say h2 {
+  font-weight: 200;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #373737;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.what-people-say p {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.what-people-say b {
+  font-weight: 900;
+}
+
+.comment {
+  background-color: rgb(34, 34, 34);
+  min-height: 80px;
+  color: white;
+}
+
+.comment p {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.avatar-wrapper {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 599px) {
+  .testimonial-wrapper {
+    height: 600px;
+  }
+
+  .what-people-say {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+
+  .what-people-say h2 {
+    text-align: center;
+  }
+
+  .comments-wrapper {
+    width: 90%;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .what-people-say {
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    margin-right: 2%;
+    padding-top: 100px;
+  }
+
+  .comments-wrapper {
+    float: right;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 7%;
+    padding-top: 50px;
+  }
+}

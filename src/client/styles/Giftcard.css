@@ -1,0 +1,176 @@
+#gift-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 50px 30px;
+}
+
+.card {
+  width: 300px;
+  height: 340px;
+  flex: 1 0 0;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 17px;
+  color: #4a0000;
+}
+
+.card button {
+  width: 270px;
+  height: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 0.9em;
+  color: white;
+  background-color: #6f0000;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.details-wrapper {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  margin: 15% auto;
+  background-color: #fbfbfb;
+  width: 80vw;
+  height: 70vh;
+  overflow: scroll;
+}
+
+.details h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0; 
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #4a0000;
+}
+
+.details p {
+  width: 90%;
+  margin: 30px auto;
+  color: #190000;
+  line-height: 25px;
+} 
+
+.details h4 {
+  width: 90%;
+  margin: 20px auto;
+  line-height: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #4a0000;
+} 
+
+form[name='gc-form'] {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.gc-form-items {
+  padding: 15px;
+}
+
+.gc-form-items label {
+  margin-right: 10px;
+  display:inline-block;
+  vertical-align: middle;
+  font-family: 'Raleway', sans-serif;
+  color: #190000;
+}
+
+.gc-form-items input,
+.gc-form-items textarea,
+.gc-form-items select {
+  border: none;
+  border-bottom: 1px solid #190000;
+  background-color: transparent;
+  color: #5f0000;
+  font-size: 0.9em;
+}
+
+.gc-form-items input {
+  height: 20px;
+}
+
+.gc-form-items textarea {
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 63%;
+}
+
+input[name='name'] {
+  width: 63%;
+}
+
+input[name='value'] {
+  width: 50%;
+}
+
+input[type='submit'] {
+  background-color: #6f0000;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  border-radius: 5px;
+}
+
+.gc-price-buy-wrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+}
+
+.gc-buy-button {
+  margin-left: 50px;
+}
+
+.gc-price {
+  width: 50px;
+  font-size: 2.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #6f0000;
+  font-weight: 300;
+}
+
+.service-selector {
+  display: inline-block;
+  width: 63%;
+}
+
+select[name='service'] {
+  width: 100%;
+}
+
+.gc-buy-button button span{
+  background-image: linear-gradient(rgb(113, 29, 18), rgb(113, 29, 18), rgb(113, 29, 18)) !important;
+  width: 250px !important;
+  padding: 3px !important;
+}
