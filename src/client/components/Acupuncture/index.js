@@ -71,8 +71,17 @@ class Acupuncture extends React.Component {
           <h4>Initial Assessment & Treatment</h4>
           <h5>$105</h5>
           <div className='clearFloat'/>
-          <h4>Subsequent Treatments</h4>
-          <h5>$88</h5>
+          <h4>Subsequent Treatments:</h4>
+          <div className='clearFloat' />
+          <br />
+          <h4>60 Minutes</h4>
+          <h5>$90</h5>
+          <div className='clearFloat' />
+          <h4>75 Minutes</h4>
+          <h5>$110</h5>
+          <div className='clearFloat' />
+          <h4>90 Minutes</h4>
+          <h5>$135</h5>
           <div className='clearFloat' />
         </div>
         </ScrollAnimation>

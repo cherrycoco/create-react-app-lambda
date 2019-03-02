@@ -69,14 +69,18 @@ class FootReflexology extends React.Component {
           </ul>
           <p><b>Rates</b></p>
           <h4>50 Minutes</h4>
-          <h5>$39</h5>
+          <h5>$48</h5>
+          <div className='clearFloat'/>
+          <h4>60 Minutes</h4>
+          <h5>$56</h5>
           <div className='clearFloat'/>
           <h4>75 Minutes</h4>
-          <h5>$58</h5>
+          <h5>$72</h5>
           <div className='clearFloat' />
           <h4>90 Minutes</h4>
-          <h5>$70</h5>
+          <h5>$86</h5>
           <div className='clearFloat' />
+          <h4>*All sessions includes a foot soak and a complementary shoulder massage</h4>
         </div>
         </ScrollAnimation>
         <ScrollAnimation

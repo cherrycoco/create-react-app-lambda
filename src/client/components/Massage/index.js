@@ -67,14 +67,14 @@ class Massage extends React.Component {
         />  
         <MassageCard 
           title='SPORTS MEDICINAL MASSAGE'
-          description='Our sports medicinal massage is performed to targeted areas infused with our all natural traditional Chinese herbs, Gukan, to speed up the healing process. Whether you are a professional athletes, amateur athletes, weekend warriors, or someone who is suffering from soft tissue injuries such as chronic muscle cramps, muscle strain, sprains, rotator cuff tears, tennis elbow, bursitis and shin splints - we have you covered.'
+          description='Our sports medicinal massage is performed to targeted areas infused with our all natural traditional Chinese herbs, Yü, to speed up the healing process. Whether you are a professional athletes, amateur athletes, weekend warriors, or someone who is suffering from soft tissue injuries such as chronic muscle cramps, muscle strain, sprains, rotator cuff tears, tennis elbow, bursitis and shin splints - we have you covered.'
           price='$68'
         />
         <MassageCard 
           title='SHIATSU MASSAGE'
           description='Shiatsu is a Japanese acupressure massage that activates the body’s self-healing abilities. While the therapist’s fingers, palms, elbows and feet apply direct pressure to your body, your muscles are also stretched and your joints are gently rotated. Energizing, yet deeply relaxing.
           Since no massage oil is used in this treatment, Shiatsu can be performed through loose attire, on a massage table or comfortable floor cushion. We recommend Shiatsu if you often feel tightness and stiffness of joints or if you feel all "crunched up" or out of balance. Pressure and intensity can be customized from light to deep, depending on your needs.'
-          price='$68'
+          price='$58'
         />
         <MassageCard 
           title='MOTHER TO BE MASSAGE'
@@ -82,7 +82,19 @@ class Massage extends React.Component {
           The massage will relieve and ease the heavy feeling that comes with pregnancy, alleviating an aching back. 
           Finally, end your treatment with a relaxing, rejuvenating scalp and facial massage. 
           This massage suitable for all stages of pregnancy after the first trimester - it is important to tell us how far along you are when reserving in order to ensure your comfort during the treatment.'
-          price='$68'
+          price='$58'
+        />
+        <MassageCard 
+          title='Yü – Topical Chinese Medicinal Herb'
+          description='Yü is an all-natural, herb based medicinal cream first developed by the aboriginal Miao peoples
+          of Southern China. While hunting, Miao tribesmen noticed injured animals often chewed and
+          smeared a mixture of herbs and spread them across their wounded skin. This discovery led the
+          Miao people to experiment with these herbs. Upon hundreds of years of refinement and clinical
+          trial validation, the new herb mixture is created, Yü. Yü not only speed up healing time across
+          numerous afflictions, but also reduced pain and decreased infection rates. Yü is made with 100% 
+          purely natural herbs and does not contain synthetic medical ingredients. It has been used to treat 
+          and cure over 100,000 people with the success rate of over 90%. Yü could be added to any treatments.'
+          price='$10'
         />
       </div>
     </div>
