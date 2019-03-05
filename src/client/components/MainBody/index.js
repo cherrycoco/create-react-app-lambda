@@ -18,6 +18,7 @@ import Testimonials from '../Testimonials';
 import review1 from '../../assets/review1.jpg';
 import review2 from '../../assets/review2.jpg';
 import review3 from '../../assets/review3.jpg';
+import Gallery from '../Gallery';
 
 
 
@@ -97,10 +98,15 @@ const MainBody = () => (
     >
       <MiniAbout />
     </ScrollAnimation>
-    {/* <div>
-      <h2 className='mainBody-heading'>TREATMENTS</h2>
-      <Treatments />
-    </div> */}
+
+    <div id='gallery'>
+      <h2>OUR CENTRE</h2>
+      <Gallery 
+        colsSmall='1.1'
+        colsLarge='2.3'
+      />
+    </div>
+
     <Testimonials 
       img={spa4Img}
       name3='Lily Y'
