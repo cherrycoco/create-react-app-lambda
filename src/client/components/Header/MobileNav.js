@@ -43,15 +43,15 @@ class MobileNav extends React.Component {
           {['home', 'about', 'treatments', 'rates', 'contact', 'giftcard'].map((text, index) => {
             if (index === 0) {
               return (
-                <ListItem button key={text}>
-                  <NavLink to={`/`}>{text}</NavLink>
-                </ListItem>
+                  <NavLink key={text} to={`/`}>
+                    <ListItem button>{text}</ListItem>
+                  </NavLink>
               )
             }
             return (
-              <ListItem button key={text}>
-                <NavLink to={`/${text}`}>{text}</NavLink>
-              </ListItem>
+              <NavLink to={`/${text}`} key={text}>
+                <ListItem button>{text}</ListItem>
+              </NavLink>
             )
           })}
         </List>
