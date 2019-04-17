@@ -29,7 +29,8 @@
 
 @media only screen and (max-width: 599px) {
   .main-img {
-    background-attachment: scroll;
+    background-attachment: initial;
+    height: 500px;
   }
   .main-img h1 {
     font-size: 1.1em;
