@@ -9,7 +9,7 @@ const ContactInfo = () => (
     <a href="tel:604-428-0896">(604) 428-0896</a>
     <a href='mailto:zenwellness@outlook.com'>zenwellness@outlook.com</a>
     <h1>Hours</h1>
-    <h5>Mon – Sun, 10a – 9p</h5>
+    <h5>Mon – Sun, 10a – 11p</h5>
   </div>
 );
 
