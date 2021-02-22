@@ -16,6 +16,11 @@ const styles = {
   divider: {
     width: '90%',
     margin: '0 auto',
+  },
+  button: {
+    background: '#808b7c',
+    color: 'white',
+    margin: '20px',
   }
 }
 
@@ -56,10 +61,13 @@ class MobileNav extends React.Component {
           })}
         </List>
         <Divider style={styles.divider}/>
-        <div id='reservation'>
+        <a href='https://zenwellness.janeapp.com/' target='_blank'>
+          <Button variant="contained" style={styles.button}>Book Now</Button>
+        </a>
+        {/* <div id='reservation'>
           <h4>Reservations</h4>
           <a href="tel:604-428-0896">(604) 428 - 0896</a>
-        </div>
+        </div> */}
       </div>
     );
 

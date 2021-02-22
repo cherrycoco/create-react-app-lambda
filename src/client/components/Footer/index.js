@@ -14,7 +14,7 @@ const Footer = () => (
     <Contact />
     <Company />
     <Follow />
-    <MadeBy />
+    {/* <MadeBy /> */}
   </div>
 )
 
