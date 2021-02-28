@@ -9,16 +9,33 @@
   position: relative;
 }
 
+.main-img-body {
+  position: absolute; 
+  top: 45%;
+  left: 50%;
+  width: 90%;
+  transform: translateX(-50%);
+}
+
 .main-img h1 {
   color: white;
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
-  position: absolute; 
   font-size: 24px;
-  top: 45%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.main-img h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.main-img a {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .main-img img {
@@ -40,12 +57,17 @@
 /* What do you need component */
 
 #what-do-you-need h3 {
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  color: #626262;
-  letter-spacing: 0.03em;
-  padding: 60px 0 30px 0;
+  font-size: 1.6rem;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.4em;
+  width: 90%;
+  margin: 80px auto 16px auto;
+}
+
+#what-do-you-need p {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 1.2rem;
 }
 
 #what-do-you-need h2,
@@ -111,19 +133,12 @@
   transform: scale(1.2);
 }
 
-.mainBody-serviceComponent:hover .mainBody-serviceComponent-readMore, 
-.mainBody-serviceComponent:hover .mainBody-serviceComponent-title {
-  transform: translate(0);
-}
-
 .mainBody-serviceComponent-title {
   z-index: 10;
   background-color: white;
   padding: 15px;
   height: 21px;
   display: inline-block;
-  transform: translate(65px);
-  transition: all 0.2s;
 }
 
 .mainBody-serviceComponent-title h1 {
@@ -137,11 +152,8 @@
 .mainBody-serviceComponent-readMore {
   height: 65px;
   width: 65px;
-  background-color: #ff9061;
+  background-color: #92A08C;
   z-index: 10;
-  transform: translate(65px);
-  transition: transform 0.2s;
-  /* transition: z-index 0.5s 0.3s; */
 }
 
 .mainBody-serviceComponent-readMore h2 {

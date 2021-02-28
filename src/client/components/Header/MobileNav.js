@@ -45,7 +45,7 @@ class MobileNav extends React.Component {
         </div>
         <Divider style={styles.divider} />
         <List>
-          {['home', 'about', 'treatments', 'rates', 'contact'].map((text, index) => {
+          {['home', 'about', 'rates', 'contact'].map((text, index) => {
             if (index === 0) {
               return (
                   <NavLink key={text} to={`/`}>

@@ -27,7 +27,8 @@ const MainBody = () => (
     <ScrollToTop />
     <MainImg 
       img= {mainImg}
-      title='Relax, Restore & Rejuvinate'
+      title='Get a healthier, stronger, and pain-free body with a few visits.'
+      description='Acupuncture | Massage | Foot Reflexology'
     />
 
     <div id='what-do-you-need'>
@@ -35,19 +36,17 @@ const MainBody = () => (
         animateIn="fadeInUp"
         animateOnce
       >
-        <h3>ACUPUNCTURE / MASSAGE / FOOT REFLEXOLOGY / BIO-ENERGY HEALING</h3>
-        <br />
+        <h3>“I love this place, the most amazing massages and advice. They always know my problem areas without me having to tell them!”</h3>
+        <p>- Farrah D.</p>
       </ScrollAnimation>
 
       <ScrollAnimation
         animateIn="fadeInUp"
         animateOnce
       >
-        <h2>WHAT DO YOU NEED?</h2>
+        <h2>HOW CAN WE HELP?</h2>
       </ScrollAnimation>
-      
     </div>
-
     <div id='serviceComponent-wrapper'>
       <ScrollAnimation
         animateIn="slideInLeft"
