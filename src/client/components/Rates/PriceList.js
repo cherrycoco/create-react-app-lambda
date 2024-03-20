@@ -8,26 +8,26 @@ const PriceList = () => (
         <h2>Acupuncture</h2>
         <div className='items'>
           <div className='item'>Initial Assessment & Treatment</div>
-          <div className='price'>$105</div>
+          <div className='price'>$150</div>
         </div>
         <div className='items'>
           <div className='item'>Subsequent Treatments:</div>
         </div>
         <div className='items'>
           <div className='item'>30 Minutes</div>
-          <div className='price'>$50</div>
+          <div className='price'>$65</div>
         </div>
         <div className='items'>
           <div className='item'>60 Minutes</div>
-          <div className='price'>$90</div>
+          <div className='price'>$125</div>
         </div>
         <div className='items'>
           <div className='item'>75 Minutes</div>
-          <div className='price'>$110</div>
+          <div className='price'>$155</div>
         </div>
         <div className='items'>
           <div className='item'>90 Minutes</div>
-          <div className='price'>$135</div>
+          <div className='price'>$188</div>
         </div>
       </div>
 
